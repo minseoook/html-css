@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/bg.png");
+}
+header {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+header nav ul {
+  padding: 20px 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+header nav ul li {
+  font-size: large;
+  font-weight: 600;
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul li:hover {
+  text-decoration: underline dashed black;
+}
+div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+main {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+  padding: 20px 50px;
+  flex-basis: 920px;
+}
+main > span {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+main section h2 {
+  padding: 10px 10px;
+  border-bottom: 1px solid green;
+  background-image: url("./images/h2_icon.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding: 20px 10px 10px 48px;
+}
+main section img {
+  display: block;
+}
+main section p {
+  line-height: 1.8;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.cat {
+  background-color: white;
+  border-radius: 25px;
+  padding: 0 20px;
+}
+.cat ul li {
+  margin-bottom: 5px;
+}
+.re {
+  background-color: white;
+  border-radius: 25px;
+  padding: 0 20px;
+}
+.re ul {
+  height: 240px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.re ul li {
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+aside nav ul li {
+  list-style-type: square;
+}
+footer {
+  background-color: brown;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
